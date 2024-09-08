@@ -8,7 +8,7 @@ export const SlideUP = (delay) => {
       opacity: 1,
       y: 0,
       transition: {
-        duration: 0.5,
+        duration: 1,
         delay,
       },
     },
@@ -25,7 +25,7 @@ export const SlideBottom = (delay) => {
         opacity: 1,
         y: 0,
         transition: {
-          duration: 0.5,
+          duration: 1,
           delay,
         },
       },
